@@ -100,8 +100,11 @@ def view_progress_chart(data):
 
 
 def main():
-    data = load_data()
 
+    data = load_data()
+   print("\n========== AI STUDY DASHBOARD ==========")
+    print(f"Total Study Sessions: {len(data)}")
+    print("========================================\n")
     while True:
         print("\n=== AI STUDY ASSISTANT ===")
         print("1. Add study session")
